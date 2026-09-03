@@ -1,0 +1,14 @@
+title: "RABA Field Lab"
+
+description: >-
+  Public research interface for bounded investigations into responsibility,
+  human decision-making, AI systems, and real-world action.
+  Non-canonical.
+
+url: "https://komercia69-collab.github.io"
+
+baseurl: "/raba-field-lab"
+
+theme: minima
+
+markdown: kramdown
