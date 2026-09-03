@@ -119,6 +119,21 @@ Keep the navigation compact and static by default. Do not add JavaScript merely 
 
 Navigation must never imply that one research item authoritatively supersedes another unless the research status explicitly supports that claim.
 
+## Research contact
+
+Keep public feedback infrastructure minimal.
+
+The default contact pattern is a small **Research contact** block with stable links to:
+
+- the Human Owner's LinkedIn profile;
+- `raba.fieldlab@gmail.com` for bounded research contact.
+
+The block may invite relevant prior work, challenge cases, or bounded research questions.
+
+Do not add comments, account systems, contact databases, newsletters, third-party feedback widgets, or moderation infrastructure unless a demonstrated need justifies the additional operational and privacy burden.
+
+Contact or exchange must not be presented as employment, partnership, validation, adoption, endorsement, or other stronger relationship unless explicitly established and separately approved.
+
 ## Status discipline
 
 Reader-friendly presentation must never strengthen the evidence.
@@ -150,9 +165,10 @@ Before creating or materially restyling a new RABA Field Lab public page:
 3. preserve the Editorial Research Notebook design language;
 4. preserve the Soft Research Signals in the Margins motif unless it interferes with readability or the Human Owner approves a change;
 5. use the shared Research Navigation pattern when a page has meaningful source/upstream/downstream links;
-6. avoid adding a competing visual system;
-7. keep changes minimal and reusable;
-8. if a proposed page requires a different visual language, STOP and request Human Owner approval before introducing it.
+6. use the minimal Research contact pattern rather than introducing a competing feedback system;
+7. avoid adding a competing visual system;
+8. keep changes minimal and reusable;
+9. if a proposed page requires a different visual language or feedback infrastructure, STOP and request Human Owner approval before introducing it.
 
 ## Change rule
 
