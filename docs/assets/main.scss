@@ -19,8 +19,8 @@
   --raba-accent-soft: #e7eef2;
   --raba-code-bg: #eee8df;
   --raba-question-bg: #f1f5f7;
-  --raba-signal: rgba(52, 93, 120, 0.10);
-  --raba-signal-soft: rgba(52, 93, 120, 0.055);
+  --raba-signal: rgba(52, 93, 120, 0.085);
+  --raba-signal-soft: rgba(52, 93, 120, 0.042);
 }
 
 html {
@@ -38,37 +38,38 @@ body {
 }
 
 /*
-  Research Signals in the Margins
-  A faint, reusable process/automation motif. It stays outside the reading column
-  and is intentionally decorative rather than informational.
+  Soft Research Signals in the Margins
+  Quiet nodes, rounded traces and process paths outside the reading column.
+  Decorative only: they never carry evidence or status.
 */
 body::before,
 body::after {
   content: "";
   position: fixed;
-  top: 105px;
-  bottom: 24px;
-  width: 190px;
+  top: 118px;
+  bottom: 28px;
+  width: 210px;
   pointer-events: none;
   z-index: 0;
-  opacity: 0.78;
+  opacity: 0.72;
   background-image:
-    radial-gradient(circle at 28px 34px, var(--raba-signal) 0 3px, transparent 4px),
-    radial-gradient(circle at 118px 126px, var(--raba-signal) 0 3px, transparent 4px),
-    radial-gradient(circle at 58px 218px, var(--raba-signal-soft) 0 4px, transparent 5px),
-    linear-gradient(90deg, transparent 27px, var(--raba-signal-soft) 28px 29px, transparent 30px),
-    linear-gradient(0deg, transparent 125px, var(--raba-signal-soft) 126px 127px, transparent 128px),
-    linear-gradient(135deg, transparent 49%, var(--raba-signal-soft) 49.5% 50.5%, transparent 51%);
-  background-size: 150px 280px;
+    radial-gradient(circle at 34px 42px, var(--raba-signal) 0 3px, transparent 4px),
+    radial-gradient(circle at 126px 154px, var(--raba-signal) 0 3px, transparent 4px),
+    radial-gradient(circle at 72px 306px, var(--raba-signal-soft) 0 4px, transparent 5px),
+    radial-gradient(ellipse 92px 58px at 78px 120px, transparent 68%, var(--raba-signal-soft) 69% 70%, transparent 71%),
+    radial-gradient(ellipse 118px 74px at 112px 286px, transparent 70%, var(--raba-signal-soft) 71% 72%, transparent 73%),
+    linear-gradient(90deg, transparent 33px, var(--raba-signal-soft) 34px 35px, transparent 36px),
+    linear-gradient(90deg, transparent 105px, var(--raba-signal-soft) 106px 107px, transparent 108px);
+  background-size: 190px 420px;
   background-repeat: repeat-y;
 }
 
 body::before {
-  left: 24px;
+  left: 18px;
 }
 
 body::after {
-  right: 24px;
+  right: 18px;
   transform: scaleX(-1);
 }
 
