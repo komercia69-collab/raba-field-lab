@@ -33,21 +33,36 @@ Use:
 - clean sans-serif headings;
 - restrained blue-grey accent;
 - generous vertical spacing;
-- narrow readable text column;
+- a moderately wide but still controlled reading column;
 - thin section dividers;
 - calm highlighted blocks for research questions;
-- compact code-style labels for research states and course states.
+- compact code-style labels for research states and course states;
+- a faint, reusable **Research Signals in the Margins** motif on sufficiently wide desktop screens.
+
+The margin motif should suggest process, transitions, automation, evidence flow, or decision paths through light nodes and connecting lines. It is decorative context only and must never carry evidence, status, or meaning that is absent from the text.
 
 Avoid:
 
 - bright technology/cyber aesthetics;
 - excessive colour;
-- decorative gradients;
+- decorative gradients as a dominant visual effect;
 - animation unless separately approved;
 - heavy card layouts;
 - marketing-style hero sections;
 - visual effects that compete with the research content;
+- dense background imagery behind the reading column;
 - external font dependencies unless separately justified and approved.
+
+## Header and title discipline
+
+Keep the page entry visually simple.
+
+For ordinary Pages content:
+
+- show one site identity in the header;
+- show one primary reading title in the page content;
+- suppress theme-generated duplicate navigation/title output when it merely repeats the same page name;
+- do not create multiple visible copies of `RABA Field Lab` at the top of the same page.
 
 ## Current implementation source
 
@@ -114,9 +129,10 @@ Before creating or materially restyling a new RABA Field Lab public page:
 1. read this file;
 2. reuse the shared stylesheet in `docs/assets/main.scss`;
 3. preserve the Editorial Research Notebook design language;
-4. avoid adding a competing visual system;
-5. keep changes minimal and reusable;
-6. if a proposed page requires a different visual language, STOP and request Human Owner approval before introducing it.
+4. preserve the Research Signals in the Margins motif unless it interferes with readability or the Human Owner approves a change;
+5. avoid adding a competing visual system;
+6. keep changes minimal and reusable;
+7. if a proposed page requires a different visual language, STOP and request Human Owner approval before introducing it.
 
 ## Change rule
 
