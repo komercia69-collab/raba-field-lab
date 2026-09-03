@@ -19,8 +19,8 @@
   --raba-accent-soft: #e7eef2;
   --raba-code-bg: #eee8df;
   --raba-question-bg: #f1f5f7;
-  --raba-signal: rgba(52, 93, 120, 0.085);
-  --raba-signal-soft: rgba(52, 93, 120, 0.042);
+  --raba-signal: rgba(52, 93, 120, 0.13);
+  --raba-signal-soft: rgba(52, 93, 120, 0.07);
 }
 
 html {
@@ -51,7 +51,7 @@ body::after {
   width: 210px;
   pointer-events: none;
   z-index: 0;
-  opacity: 0.72;
+  opacity: 0.82;
   background-image:
     radial-gradient(circle at 34px 42px, var(--raba-signal) 0 3px, transparent 4px),
     radial-gradient(circle at 126px 154px, var(--raba-signal) 0 3px, transparent 4px),
