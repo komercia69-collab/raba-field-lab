@@ -102,6 +102,23 @@ A negative or null result is a valid public research result.
 
 Do not manufacture novelty or a RABA-specific mechanism when existing approaches are sufficient.
 
+## Research navigation
+
+Reader-facing research pages should provide a small, consistent **Research Navigation** block when useful.
+
+Preferred controls are:
+
+- a previous or upstream method/research link;
+- `Open source` for the inspectable GitHub source file;
+- `Raw / download` for direct access to the raw public file where that is meaningful;
+- a next or downstream research item.
+
+Keep the navigation compact and static by default. Do not add JavaScript merely to provide navigation, copying, or downloads when ordinary links are sufficient.
+
+`Copy link` or richer download behaviour may be added later only when it provides clear reader value and can be implemented without unnecessary complexity.
+
+Navigation must never imply that one research item authoritatively supersedes another unless the research status explicitly supports that claim.
+
 ## Status discipline
 
 Reader-friendly presentation must never strengthen the evidence.
@@ -132,9 +149,10 @@ Before creating or materially restyling a new RABA Field Lab public page:
 2. reuse the shared stylesheet in `docs/assets/main.scss`;
 3. preserve the Editorial Research Notebook design language;
 4. preserve the Soft Research Signals in the Margins motif unless it interferes with readability or the Human Owner approves a change;
-5. avoid adding a competing visual system;
-6. keep changes minimal and reusable;
-7. if a proposed page requires a different visual language, STOP and request Human Owner approval before introducing it.
+5. use the shared Research Navigation pattern when a page has meaningful source/upstream/downstream links;
+6. avoid adding a competing visual system;
+7. keep changes minimal and reusable;
+8. if a proposed page requires a different visual language, STOP and request Human Owner approval before introducing it.
 
 ## Change rule
 
