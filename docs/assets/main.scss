@@ -1,0 +1,198 @@
+---
+---
+
+@import "minima";
+
+/*
+  RABA Field Lab — Editorial Research Notebook
+  Presentation layer only. Content meaning and governance status are unchanged.
+  For continuity rules, see /PUBLICATION_STYLE.md in the repository root.
+*/
+
+:root {
+  --raba-bg: #f6f2eb;
+  --raba-surface: #fbf8f3;
+  --raba-ink: #252a31;
+  --raba-muted: #6e7480;
+  --raba-line: #d9d1c5;
+  --raba-accent: #345d78;
+  --raba-accent-soft: #e7eef2;
+  --raba-code-bg: #eee8df;
+  --raba-question-bg: #f1f5f7;
+}
+
+html {
+  background: var(--raba-bg);
+}
+
+body {
+  background: var(--raba-bg);
+  color: var(--raba-ink);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 1.72;
+  letter-spacing: 0.002em;
+}
+
+.site-header {
+  background: rgba(246, 242, 235, 0.96);
+  border-top: 0;
+  border-bottom: 1px solid var(--raba-line);
+}
+
+.site-title,
+.site-title:visited,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--raba-ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  letter-spacing: -0.018em;
+}
+
+.site-title {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.page-content {
+  padding-top: 48px;
+  padding-bottom: 64px;
+}
+
+.wrapper {
+  max-width: 900px;
+}
+
+.post-content {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-content h1 {
+  font-size: 2.55rem;
+  line-height: 1.12;
+  margin-bottom: 1.25rem;
+}
+
+.post-content h2 {
+  margin-top: 3.2rem;
+  margin-bottom: 1.1rem;
+  padding-top: 0.35rem;
+  font-size: 1.85rem;
+  line-height: 1.2;
+}
+
+.post-content h3 {
+  margin-top: 2.2rem;
+  margin-bottom: 0.7rem;
+  font-size: 1.35rem;
+  line-height: 1.3;
+}
+
+.post-content p,
+.post-content ul,
+.post-content ol {
+  margin-bottom: 1.25rem;
+}
+
+.post-content li {
+  margin-bottom: 0.35rem;
+}
+
+strong {
+  color: #1e2329;
+}
+
+a,
+a:visited {
+  color: var(--raba-accent);
+  text-decoration-color: rgba(52, 93, 120, 0.38);
+  text-underline-offset: 0.16em;
+  text-decoration-thickness: 0.06em;
+}
+
+a:hover {
+  color: #24485f;
+  text-decoration-color: currentColor;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--raba-line);
+  margin: 3.2rem 0;
+}
+
+blockquote {
+  margin: 1.8rem 0 2rem;
+  padding: 1.25rem 1.45rem;
+  border-left: 4px solid var(--raba-accent);
+  background: var(--raba-question-bg);
+  color: #28343e;
+  font-size: 1.08em;
+  line-height: 1.62;
+  letter-spacing: 0;
+  border-radius: 0 8px 8px 0;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+code {
+  background: var(--raba-code-bg);
+  border: 1px solid #ded5c9;
+  border-radius: 5px;
+  color: #39434c;
+  padding: 0.08em 0.38em;
+  font-size: 0.87em;
+}
+
+pre,
+pre code {
+  background: #eee8df;
+}
+
+.post-content > p:first-of-type {
+  font-size: 1.08em;
+}
+
+.site-footer {
+  background: var(--raba-bg);
+  border-top: 1px solid var(--raba-line);
+  color: var(--raba-muted);
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 17px;
+    line-height: 1.68;
+  }
+
+  .page-content {
+    padding-top: 30px;
+  }
+
+  .post-content h1 {
+    font-size: 2.05rem;
+  }
+
+  .post-content h2 {
+    margin-top: 2.6rem;
+    font-size: 1.55rem;
+  }
+
+  .post-content h3 {
+    font-size: 1.23rem;
+  }
+
+  blockquote {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 1rem 1.1rem;
+  }
+}
