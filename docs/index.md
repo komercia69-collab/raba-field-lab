@@ -317,6 +317,16 @@ remain with the Human Owner.
 
 ---
 
+## Research contact
+
+Relevant prior work, challenge cases, and bounded research questions are welcome.
+
+[LinkedIn](https://www.linkedin.com/in/oleksandr-shuliak-49039285/) · [Email](mailto:raba.fieldlab@gmail.com)
+
+No employment, partnership, validation, or adoption is implied by contact or exchange.
+
+---
+
 ## Transparency Note
 
 This public research interface reflects research directed and reviewed by the Human Owner.
