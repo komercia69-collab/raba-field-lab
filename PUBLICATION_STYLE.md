@@ -37,12 +37,14 @@ Use:
 - thin section dividers;
 - calm highlighted blocks for research questions;
 - compact code-style labels for research states and course states;
-- a faint, reusable **Research Signals in the Margins** motif on sufficiently wide desktop screens.
+- a faint, reusable **Soft Research Signals in the Margins** motif on sufficiently wide desktop screens.
 
-The margin motif should suggest process, transitions, automation, evidence flow, or decision paths through light nodes and connecting lines. It is decorative context only and must never carry evidence, status, or meaning that is absent from the text.
+The margin motif should suggest process, transitions, automation, evidence flow, or decision paths through soft nodes, rounded traces, light arcs, and quiet guide-lines. It is decorative context only and must never carry evidence, status, or meaning that is absent from the text.
 
 Avoid:
 
+- sharp angular or spike-like background motifs;
+- dense diagonal crossings;
 - bright technology/cyber aesthetics;
 - excessive colour;
 - decorative gradients as a dominant visual effect;
@@ -129,7 +131,7 @@ Before creating or materially restyling a new RABA Field Lab public page:
 1. read this file;
 2. reuse the shared stylesheet in `docs/assets/main.scss`;
 3. preserve the Editorial Research Notebook design language;
-4. preserve the Research Signals in the Margins motif unless it interferes with readability or the Human Owner approves a change;
+4. preserve the Soft Research Signals in the Margins motif unless it interferes with readability or the Human Owner approves a change;
 5. avoid adding a competing visual system;
 6. keep changes minimal and reusable;
 7. if a proposed page requires a different visual language, STOP and request Human Owner approval before introducing it.
