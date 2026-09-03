@@ -250,6 +250,16 @@ The absence of a new mechanism is a valid and useful outcome.
 
 [Research templates](https://github.com/komercia69-collab/raba-field-lab/tree/main/templates)
 
+<div class="research-navigation" aria-label="Research navigation">
+  <div class="research-navigation__label">Research navigation</div>
+  <div class="research-navigation__links">
+    <a href="https://github.com/komercia69-collab/raba-field-lab/blob/main/research/residual-problem-test.md">← Method</a>
+    <a href="https://github.com/komercia69-collab/raba-field-lab/blob/main/docs/index.md">Open source</a>
+    <a href="https://raw.githubusercontent.com/komercia69-collab/raba-field-lab/main/docs/index.md">Raw / download</a>
+    <a href="https://github.com/komercia69-collab/raba-field-lab/blob/main/research/residual-problem-test-llms-txt-worked-example.md">Worked example →</a>
+  </div>
+</div>
+
 ---
 
 ## Field Lab Boundary
