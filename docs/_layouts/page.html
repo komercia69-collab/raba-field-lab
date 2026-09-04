@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    <div class="research-navigation" aria-label="Public site navigation">
+      <div class="research-navigation__label">Explore RABA Field Lab</div>
+      <div class="research-navigation__links">
+        <a href="{{ "/" | relative_url }}">Home</a>
+        <a href="{{ "/meaning-preservation-in-ai-transformation.html" | relative_url }}">Meaning Preservation</a>
+        <a href="{{ "/" | relative_url }}#methods--evidence">Residual Problem Test</a>
+        <a href="{{ "/" | relative_url }}#an-investigation-we-stopped">Worked example</a>
+        <a href="{{ "/" | relative_url }}#research-contact">Research contact</a>
+      </div>
+    </div>
+
+    {{ content }}
+
+    <div class="research-navigation" aria-label="Public site navigation">
+      <div class="research-navigation__label">Explore RABA Field Lab</div>
+      <div class="research-navigation__links">
+        <a href="{{ "/" | relative_url }}">Home</a>
+        <a href="{{ "/meaning-preservation-in-ai-transformation.html" | relative_url }}">Meaning Preservation</a>
+        <a href="{{ "/" | relative_url }}#methods--evidence">Residual Problem Test</a>
+        <a href="{{ "/" | relative_url }}#an-investigation-we-stopped">Worked example</a>
+        <a href="{{ "/" | relative_url }}#research-contact">Research contact</a>
+      </div>
+    </div>
+  </div>
+</article>
