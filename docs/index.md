@@ -92,6 +92,10 @@ This is not a claim that no such solution exists.
 
 It means that after challenging the question against strong publicly available approaches, the remaining question is still narrow and material enough to justify further investigation.
 
+### [Meaning Preservation in AI Transformation]({{ "/meaning-preservation-in-ai-transformation.html" | relative_url }})
+
+AI can make information easier to use while still silently losing meaning that later matters for human judgment. This note asks how to test whether transformation preserved what a decision still depends on.
+
 ---
 
 ## An Investigation We Stopped
