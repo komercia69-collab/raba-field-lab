@@ -96,6 +96,10 @@ It means that after challenging the question against strong publicly available a
 
 AI can make information easier to use while still silently losing meaning that later matters for human judgment. This note asks how to test whether transformation preserved what a decision still depends on.
 
+### [Worked Case — Multi-Agent Meaning Drift]({{ "/multi-agent-meaning-drift-worked-case.html" | relative_url }})
+
+Can every agent follow its rules, preserve evidence, use handoffs and wait for human approval — yet still carry a subtly changed interpretation through the entire workflow? This synthetic case tests that failure mode and then challenges its own result.
+
 ---
 
 ## An Investigation We Stopped
