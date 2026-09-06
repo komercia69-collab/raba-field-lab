@@ -6,7 +6,7 @@
 **Authority effect:** none  
 **Architecture outcome:** NO MATERIAL RESIDUAL FOUND / REUSE / STOP
 
-**Observed operational state:** MATERIAL IMPLEMENTATION GAP
+**Observed operational state:** MATERIAL IMPLEMENTATION GAP OBSERVED
 
 **RABA development action:** NONE
 
@@ -77,7 +77,7 @@ Evidence status:
 
 `independently verifiable external record / not an independent discovery chain`
 
-The evidence layers therefore remain separate.
+The evidence roles remain distinct, but the discovery chains are not independent.
 
 ---
 
@@ -247,7 +247,7 @@ In a strong implementation, these existing control layers substantially address 
 
 `official external text → uncontrolled package/action execution`
 
-The triggering evidence nevertheless shows that such controls are not consistently implemented, integrated or effective in current practice.
+The triggering evidence nevertheless shows a material implementation gap in the observed cases: controls capable of addressing the failure mode were not consistently present, integrated or effective.
 
 At this stage the appropriate disposition is:
 
@@ -338,7 +338,7 @@ The final questions were:
 
 **Existing architectural control coverage:** strong in a strong implementation.
 
-**Observed operational state:** material implementation gap.
+**Observed operational state:** material implementation gap observed.
 
 **Material RABA architectural residual:** **NO MATERIAL RESIDUAL FOUND**.
 
