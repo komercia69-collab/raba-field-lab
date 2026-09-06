@@ -4,7 +4,11 @@
 **Context:** RABA Field Lab  
 **Date:** 31 August 2026  
 **Authority effect:** none  
-**Outcome:** NO MATERIAL RESIDUAL FOUND / REUSE / STOP
+**Architecture outcome:** NO MATERIAL RESIDUAL FOUND / REUSE / STOP
+
+**Observed operational state:** MATERIAL IMPLEMENTATION GAP
+
+**RABA development action:** NONE
 
 ## Purpose
 
@@ -18,7 +22,7 @@ The purpose was not to identify something RABA could add.
 
 The test explicitly allowed the result:
 
-`existing approaches adequately cover the tested problem`
+`tested architectural failure mode substantially addressable in a strong implementation`
 
 → `REUSE`
 
@@ -61,11 +65,17 @@ OSV entry:
 
 **MAL-2026-11069 — Malicious code in `clerk-next-fix-auth-protection`**
 
-independently records a malicious npm package whose installation hooks transmitted installer and environment information to an external endpoint.
+is an independently maintained and independently verifiable external record of a malicious npm package whose installation hooks transmitted installer and environment information to an external endpoint.
 
 This supports the existence and behavior of the malicious package.
 
 It does not by itself establish every step in the broader documentation-to-execution chain described in the Hertz investigation.
+
+Hertz references the OSV record in his own investigation narrative. OSV is therefore an external independently verifiable record for the narrower malicious-package fact, but not a separately originated discovery line for the broader chain.
+
+Evidence status:
+
+`independently verifiable external record / not an independent discovery chain`
 
 The evidence layers therefore remain separate.
 
@@ -233,11 +243,11 @@ It assumes a reasonably strong combination of existing controls.
 
 ### Result
 
-With these layers operating effectively, the original:
+In a strong implementation, these existing control layers substantially address the tested architectural failure mode represented by:
 
 `official external text → uncontrolled package/action execution`
 
-failure is substantially addressable using existing controls.
+The triggering evidence nevertheless shows that such controls are not consistently implemented, integrated or effective in current practice.
 
 At this stage the appropriate disposition is:
 
@@ -286,6 +296,8 @@ NIST AI Risk Management Framework includes post-deployment monitoring, incident 
 
 Established access-control and security-governance practices also provide mechanisms for defining privileges, responsible roles and policy review.
 
+NIST frameworks substantially cover governance dependencies. Operational closure depends on those governance inputs being translated into and enforced through adjacent technical and organizational controls.
+
 The result of this bounded check was:
 
 **formation of policy and authority — substantially covered**
@@ -322,19 +334,19 @@ The final questions were:
 
 ## 8. Final disposition
 
-**Observed failure:** credible and materially supported as a security and software-supply-chain problem.
+**Observed failure:** credible and materially supported.
 
-**Existing technical control coverage:** strong.
+**Existing architectural control coverage:** strong in a strong implementation.
 
-**Adjacent governance coverage:** substantial.
+**Observed operational state:** material implementation gap.
 
-**Material RABA residual:** **NO MATERIAL RESIDUAL FOUND**
+**Material RABA architectural residual:** **NO MATERIAL RESIDUAL FOUND**.
 
-**Disposition:** **REUSE**
+**Disposition:** **REUSE**.
 
-**RABA development action:** **NONE**
+**RABA development action:** **NONE**.
 
-**Research course:** **STOP**
+**Research course:** **STOP new mechanism for this tested architectural problem**.
 
 No new RABA architecture component is admitted from this test.
 
@@ -370,6 +382,8 @@ The correct outcome is therefore not to keep searching until a RABA-specific pro
 
 The correct outcome is to stop.
 
+`STOP` applies to new RABA mechanism development for the tested architectural question. It does not mean that the observed security problem is solved in practice.
+
 > **A research method that permits “no RABA action” must also demonstrate that it can actually reach that result.**
 
 ---
@@ -386,6 +400,8 @@ This worked example does **not** claim that:
 - RABA has been validated;
 - RABA is compatible or integrated with any referenced framework or product;
 - any referenced researcher, organization, project or standards body endorses RABA.
+
+A later test may examine whether persistent implementation gaps are adequately explained by adoption and implementation failure or whether a material integration/governance residual remains. This worked example does not establish such a residual.
 
 The result is narrower:
 
