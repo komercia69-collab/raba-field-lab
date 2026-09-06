@@ -144,6 +144,43 @@ Only the last outcome may justify a further RABA research candidate.
 
 Even then, it does not authorize implementation, establish uniqueness, validate RABA, or create RABA canon.
 
+## Architecture and implementation are separate questions
+
+A Residual Problem Test result should distinguish between:
+
+**Architecture outcome** — whether a material problem remains after existing approaches are given their strongest reasonable implementation.
+
+**Operational reality** — whether those approaches are actually adopted, integrated and effective in observed practice.
+
+A result such as:
+
+`NO MATERIAL RESIDUAL / REUSE / STOP`
+
+means:
+
+`stop developing a new mechanism for the tested architectural problem`
+
+It does **not** mean:
+
+`the real-world problem is solved in practice`
+
+Core research rule:
+
+> **The absence of an architectural residual does not imply the absence of a real-world implementation gap.**
+
+Conversely:
+
+> **An observed implementation gap does not by itself establish an architectural residual or justify a RABA-specific mechanism.**
+
+A persistent implementation gap may justify a new bounded research question about why existing controls fail in practice, including whether a material integration or governance residual remains after ordinary implementation explanations and existing integration approaches are tested.
+
+Where useful, the result may be reported on two axes:
+
+```text
+Architecture outcome:
+Operational reality:
+```
+
 ## 6. Comparative use in the Field Lab
 
 The Residual Problem Test can be combined with bounded comparative work.
