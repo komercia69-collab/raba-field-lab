@@ -55,5 +55,3 @@ An `After` state is not assumed to be an improvement. Legitimate outcomes includ
 - [`research/`](research/) — comparative and cross-case research outputs.
 - [`templates/`](templates/) — minimal intake, baseline, and before/after record templates.
 - [`GOVERNANCE.md`](GOVERNANCE.md) — the boundary between the Field Lab and RABA core.
-
-No real case is included in the initial v0.1 structure.
