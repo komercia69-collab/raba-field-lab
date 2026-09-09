@@ -95,23 +95,11 @@ I treat that limitation as part of the analysis, not something to hide.
 
 ---
 
-We investigate **“simple” questions** at the boundary between human decisions, AI systems, and real-world consequences.
+## Explore deeper
 
-Not every investigation leads to a new solution.
+The sections below preserve the fuller research trail, current unresolved work, methods, evidence boundaries, and governance context behind the portfolio examples.
 
-Some hypotheses survive testing.
-
-Some become sharper.
-
-Some give way to stronger existing approaches.
-
-And some should be stopped.
-
-**This site makes the research path visible.**
-
-From question to challenge.  
-From challenge to evidence.  
-From evidence to a change in position.
+A reader can stop at the portfolio summary above or continue into the research layer below.
 
 ---
 
