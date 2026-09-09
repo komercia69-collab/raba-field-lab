@@ -2,6 +2,18 @@
 
 **Status:** public research interface / bounded external research environment / non-canonical
 
+## Portfolio view
+
+This repository shows how I analyse AI and business-process problems in practice:
+
+- define the actual question;
+- test it against existing standards and solutions;
+- separate evidence from assumptions;
+- document what survives the challenge;
+- stop a direction when a new mechanism is not justified.
+
+For a short portfolio view, start with the [RABA Field Lab site](https://komercia69-collab.github.io/raba-field-lab/).
+
 RABA Field Lab is the external research and reality-contact layer of the Responsibility-Aware Business Architecture (RABA) research project.
 
 Its purpose is to make bounded cases, comparative studies, and observable research deltas inspectable without treating external activity as authority over RABA.
