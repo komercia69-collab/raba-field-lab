@@ -7,6 +7,94 @@ raba_status: "non-canonical"
 
 # RABA Field Lab
 
+## What I show here
+
+I use structured analysis to examine difficult questions at the boundary between business processes, AI systems, human decisions, and real-world consequences.
+
+The work shown here demonstrates four things:
+
+- **Structured problem analysis** — separating the actual problem from assumptions and attractive explanations.
+- **Comparison against existing solutions** — checking standards, security controls, governance approaches, and adjacent methods before proposing something new.
+- **Evidence-based decisions** — documenting why a direction should continue, change, be reused, or stop.
+- **Negative results** — treating “do not build a new mechanism” as a valid outcome when existing approaches already solve the problem well enough.
+
+This is a research portfolio, not a claim that every question requires a new framework.
+
+---
+
+## Three examples of how I work
+
+### 1. External instructions → AI agent action
+
+**What I tested:**  
+Whether risks arising when an AI agent receives external instructions require a new governance mechanism.
+
+**What I found:**  
+Existing controls — provenance, trust boundaries, authorization, policy enforcement, sandboxing, restricted capabilities, audit trails, and human approval — already cover the tested problem to a substantial degree.
+
+**Decision:**  
+**REUSE / STOP — no new RABA-specific mechanism justified in the tested scenario.**
+
+[Read the worked example](https://github.com/komercia69-collab/raba-field-lab/blob/main/research/residual-problem-test-llms-txt-worked-example.md)
+
+---
+
+### 2. Meaning preservation across AI transformation
+
+**What I tested:**  
+Whether information can remain technically traceable while losing meaning that later matters for a human decision.
+
+**What I found:**  
+The relevant question is not only whether data is preserved, but whether decision-relevant meaning survives transformation and handoff.
+
+**Decision:**  
+**CONTINUE — bounded unresolved research question.**
+
+[Read the research note]({{ "/meaning-preservation-in-ai-transformation.html" | relative_url }})
+
+---
+
+### 3. Multi-agent meaning drift
+
+**What I tested:**  
+Whether several agents can each follow their local rules while a changed interpretation propagates through the full workflow.
+
+**What I found:**  
+Local compliance and preserved handoffs do not automatically prove that the original meaning remained intact end-to-end.
+
+**Decision:**  
+**RESEARCH CASE — synthetic worked example, not a live-system validation.**
+
+[Read the worked case]({{ "/multi-agent-meaning-drift-worked-case.html" | relative_url }})
+
+---
+
+## How I approach a problem
+
+`Question → Existing solutions → Strongest counterexample → Evidence → Residual problem → Decision`
+
+Possible decisions include:
+
+`CONTINUE / MODIFY / REUSE / REASSESS / STOP`
+
+A useful analysis may end with:
+
+**“The existing solution is already strong enough. Do not build another mechanism.”**
+
+That is a successful result when the evidence supports it.
+
+---
+
+## Evidence boundary
+
+Some material on this site is based on public research, standards, and worked examples rather than deployment inside a live production system.
+
+Where evidence has not been independently reproduced or a case is synthetic, it is labelled explicitly.
+
+I treat that limitation as part of the analysis, not something to hide.
+
+---
+
 We investigate **“simple” questions** at the boundary between human decisions, AI systems, and real-world consequences.
 
 Not every investigation leads to a new solution.
