@@ -110,6 +110,55 @@ The purpose is not literal textual identity.
 
 The purpose is **equivalence of decision-relevant meaning across transformation**.
 
+## From preserving artifacts to preserving governing relationships
+
+The research has now moved one step further.
+
+Preserving source material, provenance, or even the exact original wording does not necessarily establish that the governing meaning survived.
+
+A process may retain all of the relevant concepts while changing the relationship between them.
+
+For example:
+
+**Evidence → supports → Claim**
+
+is not equivalent to allowing the claim to validate the evidence that was supposed to support it.
+
+**Observation → triggers → Reassessment**
+
+is not equivalent to allowing the observation itself to acquire decision authority.
+
+**Authority → permits → Action**
+
+is not equivalent to treating the resulting action as proof that the required authority existed.
+
+The issue is therefore not only whether the nodes in a process remain visible.
+
+The relationship between them may also matter: its direction, role, scope, and permitted consequence.
+
+This suggests a narrower working question:
+
+> **Can an AI-supported process preserve and inspect not only its artifacts and states, but also the governing relationships between them?**
+
+A related risk appears when epistemic states are silently strengthened.
+
+For example:
+
+- `UNKNOWN` is not automatically `NO`;
+- `UNVERIFIED` is not automatically `SUPPORTED`;
+- `OBSERVED` is not automatically `MATERIALLY RELEVANT`;
+- `MATERIALLY RELEVANT` is not automatically `AUTHORISED TO DECIDE`.
+
+A particularly important form is:
+
+**absence of evidence of change ≠ evidence of absence of change**
+
+The words are nearly the same, but the claims are not.
+
+This page does not establish a new RABA principle or mechanism from these distinctions.
+
+The current task is to pressure-test whether they are already handled sufficiently by existing requirements, assurance, provenance, safety, and governance approaches, or whether a narrower residual remains.
+
 ## Why this matters
 
 A human being usually reads text as if it carries intention.
