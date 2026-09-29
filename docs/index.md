@@ -105,77 +105,58 @@ A reader can stop at the portfolio summary above or continue into the research l
 
 ## Latest Research Transition
 
-### Physical AI and the Last Effective Moment of Intervention
+### From Preserving Meaning to Preserving Governing Relationships
 
-When an AI system influences physical action, the question:
+Recent work has narrowed the question beyond whether information or provenance survives an AI-supported transformation.
 
-**“Was a human in the loop?”**
+A process may preserve the original artifacts, evidence, and even the original wording while still changing what a governing condition means in practice.
 
-may not be enough.
+The current research question is:
 
-A more precise question is:
+> **When evidence, observations, interpretations, and decisions move through an AI-supported process, what must remain invariant so that a downstream representation does not acquire meaning or authority that the original condition never gave it?**
 
-> **What did the human actually have the opportunity to know at the last moment when intervention could still change the outcome?**
+A useful shorthand is:
 
-The investigation began with a broader question about Human Oversight.
+**Reality → Observation → Evidence → Interpretation → Decision → Action**
 
-We challenged it against existing approaches and materials from several strong domains.
+The question is not only whether each element is present or locally correct.
 
-**Primary / regulatory sources**
+It is also:
 
-- EU AI Act, including Human Oversight requirements;
-- NIST AI Risk Management Framework;
-- ISO/IEC 42105 on Human Oversight of AI systems, within publicly available material.
+> **What is allowed to change at each transition — and what must not?**
 
-**Adjacent safety and human-factors approaches**
+Several distinctions are being pressure-tested:
 
-- Functional Safety;
-- Human Factors Engineering;
-- HSE Alarm Management;
-- Stop Work Authority;
-- High Reliability Organizations;
-- NRC / nuclear human-factors practice;
-- FAA research on safety-critical information and decision timing.
+- evidence is not the same as the claim it supports;
+- observation is not the same as a determination of materiality;
+- materiality is not the same as authority;
+- technical capability is not the same as business or normative authority;
+- authority to suspend is not authority to redefine the underlying decision;
+- an unknown or unverified state is not automatically equivalent to “no change” or “safe to proceed.”
 
-Much of the original broad hypothesis did not survive that challenge.
+This extends an earlier Physical AI / Human Oversight investigation.
 
-Existing approaches already address many important elements, including:
-
-- safe states;
-- alarms;
-- operator authority;
-- intervention;
-- logging;
-- human factors;
-- decision-making under uncertainty;
-- monitoring;
-- response time;
-- escalation.
-
-But a narrower question remained:
-
-> **Can an organisation reconstruct the chain between what the system knew, what AI interpreted or filtered, and what the human was actually able to see and understand before effective intervention became impossible?**
-
-In shorthand:
+That investigation asked what a human was actually able to know before the last effective moment of intervention, and whether the chain could be reconstructed:
 
 **system-known → AI-mediated → human-visible → effective intervention window → human decision → physical action**
 
+The newer question is broader but still bounded: even where the chain is reconstructable, can the **type, direction, and consequence of the relationships between its states** be inspected well enough to detect a silent change in governing meaning?
+
+This is currently a research question, not a finished RABA mechanism.
+
+It does not establish that existing requirements, assurance, safety, provenance, or governance methods are insufficient.
+
 **Current status:** publicly unresolved research question.
 
-**Course:** `CONTINUE / REUSE`
-
-This is not a claim that no such solution exists.
-
-It means that after challenging the question against strong publicly available approaches, the remaining question is still narrow and material enough to justify further investigation.
+**Course:** `CONTINUE / REUSE / PRESSURE-TEST`
 
 ### [Meaning Preservation in AI Transformation]({{ "/meaning-preservation-in-ai-transformation.html" | relative_url }})
 
-AI can make information easier to use while still silently losing meaning that later matters for human judgment. This note asks how to test whether transformation preserved what a decision still depends on.
+The research note now extends from preserving information and intent to a narrower transition question: whether governing relationships themselves remain intact as observations, evidence, interpretations, and decisions move through a process.
 
 ### [Worked Case — Multi-Agent Meaning Drift]({{ "/multi-agent-meaning-drift-worked-case.html" | relative_url }})
 
-Can every agent follow its rules, preserve evidence, use handoffs and wait for human approval — yet still carry a subtly changed interpretation through the entire workflow? This synthetic case tests that failure mode and then challenges its own result.
-
+The synthetic worked case shows why preserving the original text is not always sufficient: different locally valid representations can remain individually defensible while no longer preserving the same governing condition.
 ---
 
 ## An Investigation We Stopped
